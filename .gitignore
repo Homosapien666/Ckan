@@ -9,3 +9,27 @@ _solr/schema.xml
 _src/*
 
 data/*
+
+# Local configuration and credentials
+.env.*
+!.env.example
+!.env.template
+*.key
+*.pem
+*.p12
+*.pfx
+*session*.json
+*token*.json
+
+# Runtime state, dumps and editor files
+__pycache__/
+*.py[cod]
+*.log
+*.sql.gz
+*.dump
+*.backup
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+/examples/api-crud-rerun-evidence.json

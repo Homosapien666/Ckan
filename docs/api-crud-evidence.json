@@ -1,0 +1,73 @@
+{
+  "data_preserved": {
+    "real_dataset": "province-groups",
+    "real_resource": "760d60ff-558f-403b-b724-07781b491648"
+  },
+  "base_url": "http://localhost:8881",
+  "results": [
+    {
+      "operation": "Create",
+      "value": "สาธิต Create ผ่าน CKAN API 20261027072807",
+      "success": true,
+      "action": "package_create",
+      "target": "dataset",
+      "id": "05eea147-9f74-443f-a6ab-0c0c6d23e08b"
+    },
+    {
+      "operation": "Read",
+      "value": "สาธิต Create ผ่าน CKAN API 20261027072807",
+      "success": true,
+      "action": "package_show",
+      "target": "dataset",
+      "id": "05eea147-9f74-443f-a6ab-0c0c6d23e08b"
+    },
+    {
+      "operation": "Update",
+      "value": "สาธิต Update ผ่าน CKAN API สำเร็จ 20261027072807",
+      "success": true,
+      "action": "package_patch",
+      "target": "dataset",
+      "id": "05eea147-9f74-443f-a6ab-0c0c6d23e08b"
+    },
+    {
+      "operation": "Create",
+      "resource_id": "57782ac1-e790-4cfb-a8ae-6a8c0bc2c45e",
+      "value": 1,
+      "success": true,
+      "action": "datastore_create",
+      "target": "datastore"
+    },
+    {
+      "operation": "Read",
+      "value": 1,
+      "success": true,
+      "total": 1,
+      "action": "datastore_search",
+      "target": "datastore"
+    },
+    {
+      "success": true,
+      "target": "datastore",
+      "value": 2,
+      "action": "datastore_upsert",
+      "operation": "Update"
+    },
+    {
+      "success": true,
+      "target": "datastore",
+      "action": "datastore_delete",
+      "operation": "Delete",
+      "total_after_delete": 0
+    },
+    {
+      "id": "05eea147-9f74-443f-a6ab-0c0c6d23e08b",
+      "operation": "Delete",
+      "success": true,
+      "action": "package_delete",
+      "target": "dataset",
+      "state": "deleted"
+    }
+  ],
+  "completed_at": "2026-10-27T07:28:34.0259614+07:00",
+  "test_dataset": "api-crud-demo-20261027072807"
+}
